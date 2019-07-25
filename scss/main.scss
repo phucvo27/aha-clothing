@@ -2,5 +2,13 @@
 
 @import './abstracts/variables';
 @import './base/base';
+@import './base/typhography';
 
-@import './components/header'
+@import './pages/homepage';
+@import './layouts/listProducts';
+@import './utils/utils';
+@import './components/button';
+@import './components/header';
+@import './components/navbar';
+@import './components/slide';
+@import './components/product';

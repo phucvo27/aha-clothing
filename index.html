@@ -12,14 +12,14 @@
 <body>
     <header class="header">
         <div class="header__text">
-            <ul class="navigation">
-                <li class="navigation__item"><a href="" class="navigation--link">
+            <ul class="list">
+                <li class="list__item"><a href="" class="list--link">
                     My Account
                 </a></li>
-                <li class="navigation__item"><a href="" class="navigation--link">
+                <li class="list__item"><a href="" class="list--link">
                     About Us
                 </a></li>
-                <li class="navigation__item"><a href="" class="navigation--link">
+                <li class="list__item"><a href="" class="list--link">
                     Contact us :  <b>0907 798 795</b>
                 </a></li>
             </ul>
@@ -30,5 +30,138 @@
             <i class="fa fa-tumblr icon-social"></i>
         </div>
     </header>
+
+    <nav class="navbar">
+        <div class="navbar__functionality">
+            <div class="navbar__functionality__searchbox">
+                <form action="" class="form">
+                    <input type="text" name="" id="" placeholder="Search for product..."/>
+                    <button>
+                        <i class="fa fa-search"></i>
+                    </button>
+                </form>
+            </div>
+            <div class="navbar__functionality__logo">
+                <img src="img/logo_dark.png" alt="">
+            </div>
+            <div class="navbar__functionality__cart">
+                <span>Cart </span>
+                <span class="line-skew"></span>
+                <span id="total">$0.00</span>
+                <span><i class="fa fa-shopping-cart"></i></span>
+            </div>
+        </div>
+        <div class="navbar__navigation">
+            <ul class="navigation">
+                <li class="navigation__item"><a href="" class="navigation--link">
+                    Home
+                </a></li>
+                <li class="navigation__item"><a href="" class="navigation--link">
+                    <span>Products</span>
+                    <span>
+                        <i class="fa fa-chevron-down"></i>
+                    </span>
+                    <ul class="dropdown">
+                        <li><a href="" class="navigation--link">Product Standard</a></li>
+                        <li><a href="" class="navigation--link">Product Sale </a></li>
+                        <li><a href="" class="navigation--link">Product Out Of Stock </a></li>
+                    </ul>
+                </a></li>
+                <li class="navigation__item"><a href="" class="navigation--link">
+                    <span>Categories</span>
+                    <span>
+                        <i class="fa fa-chevron-down"></i>
+                    </span>
+
+                    <ul class="dropdown">
+                        <li><a href="" class="navigation--link">Men</a></li>
+                        <li><a href="" class="navigation--link">Women</a></li>
+                        <li><a href="" class="navigation--link">Shoes</a></li>
+                    </ul>
+                </a></li>
+                
+            </ul>
+        </div>
+    </nav>
+
+    <section class="slider">
+        <ul class="slide">
+            <li class="slide__item">
+                <div class="slide__item__content">
+                    <div class="line"></div>
+                    <div class="slide__item__content--text">
+                        <h2 class="title">Collection 2017</h2>
+                        <p class="subtitle">HOT AND FRESH TRENDS OF THIS YEAR</p>
+                    </div>
+                    <div class="line"></div>
+                    <a href="" class="btn btn--white">Shop Now</a>
+                </div>
+                
+            </li>
+        </ul>
+    </section>
+
+    <section class="best__seller">
+        <h1 class="heading-primary u-text-center mg-bottom-large">Best Seller</h1>
+        <div class="products">
+            <div class="product">
+                <div class="product__img">
+                    <img src="img/product-1.jpg" alt="" />
+                    <div class="out__stock">
+                        <p>Out Of Stock</p>
+                    </div>
+                </div>
+                <div class="product__infor">
+                    <p class="product__infor--name">JACKET AND DRESS</p>
+                    <p class="product__infor--price">$119.0</p>
+                </div>
+            </div>
+            <div class="product">
+                <div class="product__img">
+                    <img src="img/product-3.jpg" alt="" />
+                    <div class="on__sale">
+                        <p>Sale</p>
+                    </div>
+                </div>
+                <div class="product__infor">
+                    <p class="product__infor--name">JACKET AND DRESS</p>
+                    <p class="product__infor--price">
+                        <span class="old-price">$150.0</span>
+                        <span class="sale-price">$119.0</span>
+                    </p>
+                </div>
+            </div>
+            <div class="product">
+                <div class="product__img">
+                    <img src="img/product-2.jpg" alt="" />
+                </div>
+                <div class="product__infor">
+                    <p class="product__infor--name">JACKET AND DRESS</p>
+                    <p class="product__infor--price">$119.0</p>
+                </div>
+            </div>
+            <div class="product">
+                <div class="product__img">
+                    <img src="img/product-3.jpg" alt="" />
+                </div>
+                <div class="product__infor">
+                    <p class="product__infor--name">JACKET AND DRESS</p>
+                    <p class="product__infor--price">$119.0</p>
+                </div>
+            </div>
+            <div class="product">
+                <div class="product__img">
+                    <img src="img/product-1.jpg" alt="" />
+                    <div class="out__stock">
+                        <p>Out Of Stock</p>
+                    </div>
+                </div>
+                <div class="product__infor">
+                    <p class="product__infor--name">JACKET AND DRESS</p>
+                    <p class="product__infor--price">$119.0</p>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
